@@ -4,9 +4,9 @@ cd protoc
 
 wget https://github.com/protocolbuffers/protobuf/releases/download/v3.17.1/protoc-3.17.1-linux-x86_64.zip
 
-go get -u google.golang.org/protobuf/cmd/protoc-gen-go
-go get -u google.golang.org/grpc/cmd/protoc-gen-go-grpc
-export PATH="$PATH:$(go env GOPATH)/bin":$(pwd)/bin
+go get -u google.golang.org/protobuf/cmd/protoc-gen-go  
+go get -u google.golang.org/grpc/cmd/protoc-gen-go-grpc  
+export PATH="$PATH:$(go env GOPATH)/bin":$(pwd)/bin  
 
 
 
